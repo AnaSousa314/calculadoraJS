@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/css?f[]=array@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calc">
+    <div class="calc-display">
+      <input type="text" id="display" readonly>
+    </div>
+
+    <div class="calc-keyboard">
+      <div class="line1">
+        <input type="text" value="CE" readonly id="clear" >
+        <input class="operator" type="text" value="x" readonly id="multiplication" >
+        <input class="operator" type="text" value="÷" readonly id="division">
+        <input class="operator" type="text" value="-" readonly id="subtraction">
+      </div>
+      <div class="line2">
+        <input class="number" type="text" value="1" readonly id="one">
+        <input class="number" type="text" value="2" readonly id="two">
+        <input class="number" type="text" value="3" readonly id="three">
+      </div>
+      <div class="line3">
+        <input class="number" type="text" value="4" readonly id="four">
+        <input class="number" type="text" value="5" readonly id="five">
+        <input class="number" type="text" value="6" readonly id="six">
+      </div>
+      <div class="line4">
+        <input class="number" type="text" value="7" readonly id="seven">
+        <input class="number" type="text" value="8" readonly id="eight">
+        <input class="number" type="text" value="9" readonly id="nine">
+      </div>
+      <div class="line5">
+        <input type="text" value="=" readonly id="equal">
+        <input class="number" type="text" value="0" readonly id="zero">
+        <input class="operator" type="text" value="+" readonly id="addition">
+      </div>
+    </div>
+
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
